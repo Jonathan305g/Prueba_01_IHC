@@ -1,119 +1,84 @@
-# 📋 PRUEBA PRÁCTICA HCI: Sistema de Gestión de Citas
-**Caso:** GABO'S Readaptación y Movimiento  
-**Asignatura:** Interacción Humano-Computador — 5to Semestre  
-**Duración base:** 120 min | **Valor:** 3.0 Puntos  
-**Entregables finales:**
-1. **Informe técnico (PDF):** Máximo 5 páginas (análisis, matrices, operacionalización, metáforas y justificación).
-2. **Prototipo interactivo navegable:** Enlace público en Figma o Penpot.
+# 📋 PRUEBA PRÁCTICA: Diseño HCI de un Mecanismo para la Gestión de Citas
+**Caso de Estudio:** GABO'S Readaptación y Movimiento  
 
 ---
 
-## 👥 Reparto de Trabajo y Responsabilidades (5 Integrantes)
-
-| Integrante | Rol Principal | Actividades Asignadas | Ponderación Rúbrica |
-| :--- | :--- | :--- | :--- |
-| **Integrante 1** | Analista de Procesos y Factores Humanos | **Actividad 1 & Actividad 2** | 0.65 pts |
-| **Integrante 2** | Arquitecto de Mecanismos y Eficiencia | **Actividad 3 & Actividad 4** | 0.75 pts |
-| **Integrante 3** | Diseñador Conceptual HCI | **Actividad 5** | 0.65 pts |
-| **Integrante 4** | Prototipador UI/UX (Figma/Penpot) | **Actividad 6** | 0.70 pts |
-| **Integrante 5** | Evaluador de Usabilidad y Cierre Técnico | **Actividad 7 & Actividad 8** | 0.25 pts (+ Integración) |
-
----
-
-### 👤 INTEGRANTE 1: Diagnóstico de Situación y Usuarios
-* **Actividades:** 1 (Analizar proceso actual) y 2 (Identificar usuarios y necesidades).
-* **Entregables específicos:**
-  1. **Diagrama/Flujo AS-IS detallado:** Identificar actores, datos de entrada/salida y puntos críticos (cuellos de botella por WhatsApp, transcripción manual, desincronización con Drive).
-  2. **Análisis de fricciones:**
-     - Tiempos muertos y esperas.
-     - Fallos de retroalimentación y visibilidad de estado del sistema.
-  3. **Factores Clave:**
-     - *2 Factores Humanos:* Carga cognitiva del recepcionista, fatiga por cambio de contexto mental (agenda de papel vs. chat), estrés por doble reserva.
-     - *2 Factores Tecnológicos:* Canales asíncronos no integrados, falta de persistencia y concurrencia de datos.
-  4. **Matriz de Usuarios y Necesidades completada:**
-     - Paciente, Fisioterapeuta (5 profesionales), Personal administrativo y Administrador del centro.
+## 🏛️ Información Institucional y Académica
+* **Institución:** Universidad Técnica de Ambato (UTA)
+* **Facultad:** Facultad de Ingeniería en Sistemas, Electrónica e Industrial (FISEI)
+* **Carrera:** Software — 5to "A"
+* **Ciclo Académico:** Agosto – Diciembre 2026
+* **Asignatura:** Interacción Humano/Computador
+* **Docente:** Ing. José Caiza, Mg.
+* **Duración:** 120 minutos | **Valoración:** 3.0 Puntos
 
 ---
 
-### 👤 INTEGRANTE 2: Comparación Técnica y Métricas de Eficiencia
-* **Actividades:** 3 (Comparar mecanismos de agendamiento) y 4 (Operacionalizar la eficiencia).
-* **Entregables específicos:**
-  1. **Matriz de Decisión Multicriterio:**
-     - Comparar las 4 opciones: *Agenda digital interna*, *Solicitud con confirmación*, *Autoagendamiento* y *Mecanismo híbrido*.
-     - Parámetros: Tiempo administrativo, acciones por usuario, prevención de solapamientos para los 5 fisioterapeutas, accesibilidad y factibilidad.
-  2. **Selección del Mecanismo:** Justificar técnicamente la opción recomendada (ej. Enfoque híbrido o autoagendamiento con reglas de negocio).
-  3. **Matriz de Operacionalización de la Eficiencia:**
-     - Delimitar Inicio, Final, Criterio de éxito, Acciones observables y Errores potenciales para:
-       * *Consultar disponibilidad*
-       * *Registrar cita*
-       * *Modificar cita*
-       * *Cancelar cita*
-       * *Reagendar cita*
-     - Definir la fórmula o métrica cuantitativa/cualitativa de la variable dependiente (Eficiencia del proceso).
+## 👥 Integrantes, Roles y Trazabilidad en GitHub
+
+> **Nota de entrega:** Cada integrante debe registrar al menos **un Issue cerrado** y **dos commits significativos** (evitar cambios triviales de formato o mensajes genéricos como «actualización»).
+
+| Integrante | Usuario GitHub | Rol HCI | Artefacto Asignado | Issue Cerrado | Commits Significativos |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Abril Lara Emilio Alexander** | `@[usuario]` | Analista de Procesos y Factores Humanos | Flujo AS-IS y Matriz de usuarios y necesidades (Act. 1 y 2) | [#1](url) | [commit-1](url), [commit-2](url) |
+| **Cusme Vélez Manuel Steven** | `@[usuario]` | Arquitecto de Mecanismos y Eficiencia | Comparación de mecanismos e Indicadores de eficiencia (Act. 3 y 4) | [#2](url) | [commit-1](url), [commit-2](url) |
+| **Gamboa Guamán Jonathan Alexis** | `@[usuario]` | Diseñador Conceptual HCI | Metáforas de interfaz y mapeo computacional (Act. 5) | [#3](url) | [commit-1](url), [commit-2](url) |
+| **Lozada Marcial Pablo Damián** | `@[usuario]` | Diseñador UI/UX y Prototipado | Prototipo interactivo navegable en Figma/Penpot (Act. 6) | [#4](url) | [commit-1](url), [commit-2](url) |
+| **Martínez Jiménez William Fernando** | `@[usuario]` | Evaluador de Usabilidad y Calidad | Protocolo de validación, informe final y síntesis (Act. 7 y 8) | [#5](url) | [commit-1](url), [commit-2](url) |
 
 ---
 
-### 👤 INTEGRANTE 3: Modelo Mental y Metáforas de Interfaz
-* **Actividades:** 5 (Construir metáforas de interfaz).
-* **Entregables específicos:**
-  1. **Selección y diseño de al menos 3 metáforas:**
-     - Metáfora organizacional/familiar (ej. *El Casillero/Pizarra de turnos por especialista*, *La Ficha clínica de mesa*).
-     - Metáfora de navegación (ej. *Ruta de rehabilitación paso a paso*, *Línea de tiempo continua*).
-     - Tercera metáfora complementaria funcional (ej. *Boleto/Ticket de confirmación canjeable*).
-  2. **Matriz de Mapeo Semántico y Técnico:**
-     - Dominio fuente ➡️ Elemento digital ➡️ Etiqueta/Mensaje ➡️ Comportamiento ➡️ Riesgo cultural/límite.
-  3. **Fundamentación Teórica HCI:**
-     - Resolver problemas de usabilidad identificados en el AS-IS.
-     - Definir affordances, visibilidad, consistencia, estados del sistema (vacío, ocupado, en proceso) y retroalimentación inmediata.
-     - Diseñar las reglas de persistencia para evitar que las metáforas rompan el modelo mental del usuario.
+## 🎯 Desglose de Responsabilidades por Integrante
+
+### 1. Abril Lara Emilio Alexander — Diagnóstico de Situación y Usuarios (0.65 pts)
+* **Artefactos:** Flujo AS-IS, Matriz de usuarios y necesidades.
+* **Entregables:**
+  * Modelado del flujo actual AS-IS señalando tiempos muertos, transcripciones redundantes e inconsistencias entre Google Drive, WhatsApp y agenda física.
+  * Análisis formal de al menos dos factores humanos (ej. sobrecarga cognitiva del recepcionista, fallas de memoria de trabajo) y dos factores tecnológicos (ej. asincronía de canales, ausencia de concurrencia/persistencia).
+  * Matriz completa de usuarios: Paciente, 5 Fisioterapeutas, Personal administrativo y Administrador del centro.
+
+### 2. Cusme Vélez Manuel Steven — Mecanismos y Eficiencia Operacional (0.75 pts)
+* **Artefactos:** Comparación de mecanismos, Indicadores de eficiencia.
+* **Entregables:**
+  * Matriz comparativa multicriterio (Agenda digital interna, Solicitud con confirmación, Autoagendamiento y Mecanismo híbrido) considerando tiempos, accesibilidad, prevención de solapamientos para los 5 especialistas y privacidad.
+  * Selección argumentada del mecanismo idóneo para el centro.
+  * Operacionalización de la variable dependiente (*Eficiencia del proceso*) con delimitación de inicio, fin, acciones observables, errores y criterios de éxito para: consulta, registro, modificación, cancelación y reagendamiento.
+
+### 3. Gamboa Guamán Jonathan Alexis — Metáforas de Interfaz y Modelo Mental (0.65 pts)
+* **Artefactos:** Metáforas de interfaz (organizacional, navegación y funcional).
+* **Entregables:**
+  * Diseño de 3 metáforas de interfaz: una organizacional/familiar (ej. casillero/pizarra por terapeuta), una de navegación (ej. ruta/línea de tiempo) y una funcional (ej. ticket canjeable).
+  * Matriz de mapeo: Dominio fuente ➡️ Elemento digital ➡️ Etiqueta ➡️ Comportamiento ➡️ Riesgo cultural/límite.
+  * Definición de affordances, visibilidad del estado del sistema, feedback, reglas de negocio y persistencia computacional.
+
+### 4. Lozada Marcial Pablo Damián — Prototipado Interactivo (0.70 pts)
+* **Artefactos:** Prototipo de fidelidad media navegable.
+* **Entregables:**
+  * Flujos completos en Figma/Penpot: Inicio, consulta de disponibilidad, filtro entre los 5 terapeutas, captura de datos, confirmación/resumen, detalle de cita, reagendamiento y diálogo destructivo de cancelación.
+  * Cumplimiento estricto de heurísticas: Navegación reversible sin pérdida de datos, estados visibles (carga, éxito, error por conflicto de horario), contraste de color adecuado y soporte de navegación por teclado.
+  * Enlace público interactivo con permisos abiertos de visualización.
+
+### 5. Martínez Jiménez William Fernando — Protocolo de Validación e Integración (0.25 pts + Integración)
+* **Artefactos:** Protocolo de validación, Recomendación final e Informe técnico consolidado.
+* **Entregables:**
+  * Protocolo de evaluación con 3 participantes (P1, P2, P3) midiendo éxito, tiempo, acciones, intervenciones y errores en las 5 tareas clave.
+  * Justificación técnica final diferenciando decisiones fundamentadas de preferencias subjetivas.
+  * Control de calidad y ensamblaje del documento PDF final (máximo 5 páginas).
 
 ---
 
-### 👤 INTEGRANTE 4: Construcción del Prototipo Navegable
-* **Actividades:** 6 (Elaborar el prototipo interactivo en Figma o Penpot).
-* **Entregables específicos:**
-  1. **Wireframes / Prototipo funcional navegable:**
-     - Pantalla 1: Inicio de gestión y selector de fisioterapeutas (filtro por los 5 especialistas).
-     - Pantalla 2: Vista de cuadrícula/calendario de disponibilidad en tiempo real.
-     - Pantalla 3: Formulario accesible de ingreso de datos del paciente.
-     - Pantalla 4: Resumen pre-confirmación y modal de éxito/ticket.
-     - Pantalla 5: Vista de detalle de cita existente.
-     - Pantalla 6: Flujo de Reagendamiento (cambio de fecha/hora manteniendo consistencia).
-     - Pantalla 7: Cancelación con confirmación destructiva en 2 pasos y diálogo de recuperación.
-  2. **Requisitos de interacción HCI obligatorios:**
-     - Navegación bidireccional (volver atrás sin borrar datos del formulario).
-     - Estados de feedback: *Loading (carga)*, *Success (éxito)*, *Error (solapamiento)* y *Empty states*.
-     - Accesibilidad visual: Alto contraste, etiquetas visibles y navegación lógica.
-  3. Generar el **enlace público con permisos de visualización**.
+## 🔗 Entregables y Enlaces del Proyecto
+* **Enlace al Prototipo Navegable (Figma/Penpot):** `[Insertar enlace aquí]`
+* **Informe Técnico Consolidado (PDF máx. 5 págs.):** `[Ver documento en repositorio / carpeta]`
 
 ---
 
-### 👤 INTEGRANTE 5: Protocolo de Validación, Recomendación y Ensamblaje
-* **Actividades:** 7 (Validación con usuarios), 8 (Recomendación final) + **Control de Calidad del Documento**.
-* **Entregables específicos:**
-  1. **Protocolo de Pruebas de Usabilidad:**
-     - Estructurar la prueba para 3 participantes representativos (P1: Paciente adulto, P2: Paciente joven, P3: Recepcionista).
-     - Medición sobre las 5 tareas requeridas (búsqueda, registro, modificación, cancelación y reagendamiento posterior).
-     - Matriz con: Tasa de éxito, tiempo por tarea, conteo de clics/acciones, nivel de intervención requerido y errores cometidos.
-  2. **Recomendación y Justificación Final:**
-     - Redacción de la conclusión técnica diferenciando preferencias subjetivas de evidencia empírica/HCI (viabilidad para 5 fisioterapeutas, baja carga para recepción).
-  3. **Edición General:** Ensamblar las secciones de los 5 integrantes en el PDF final (estricto cumplimiento del límite de 5 páginas).
+## ⏱️ Cronograma de Ejecución Recomendado (120 min)
 
----
-
-## ⏱️ Cronograma de Ejecución Sugerido (Bloque de 120 min)
-
-| Minutos | Fase | Tareas Principales |
+| Intervalo | Fase | Acciones de Trabajo |
 | :--- | :--- | :--- |
-| **00 – 15** | Alineación Inicial | Lectura conjunta, acuerdos de diseño y definición de la alternativa a prototipar. |
-| **15 – 65** | Trabajo en Paralelo | - Int 1: Redacta AS-IS y matriz de usuarios.<br>- Int 2: Matriz de mecanismos e indicadores.<br>- Int 3: Fichas de metáforas.<br>- Int 4: Estructuración y diseño del prototipo en Figma.<br>- Int 5: Matriz de validación y estructura del documento. |
-| **65 – 90** | Punto de Control | Int 4 comparte el enlace interactivo; Int 3 valida que las metáforas estén reflejadas; Int 2 revisa el flujo de eficiencia. |
-| **90 – 110** | Validación y Cierre | Int 5 realiza prueba rápida con el prototipo navegable y documenta la recomendación. |
-| **110 – 120**| Exportación y Entrega | Consolidación del PDF (máx. 5 páginas), verificación de permisos del link de Figma y entrega. |
-
----
-
-## 📌 Checklist de Entrega
-- [ ] Enlace a Figma/Penpot probado en modo incógnito (acceso público para visualización).
-- [ ] PDF con máximo 5 páginas.
-- [ ] Rúbrica cubierta: Factores humanos/tecnológicos, matriz multicriterio, operacionalización, metáforas justificadas, prototipo navegable y plan de validación.
+| **00 – 15 min** | Alineación de Equipo | Acordar mecanismo base, crear el repositorio, crear los Issues (#1 al #5) y asignar ramas de trabajo. |
+| **15 – 70 min** | Construcción Paralela | - Abril: Flujo AS-IS y usuarios.<br>- Cusme: Matrices de decisión e indicadores.<br>- Gamboa: Mapeo de metáforas.<br>- Lozada: Diseño y cableado de pantallas en Figma.<br>- Martínez: Estructuración del protocolo e informe (PDF). |
+| **70 – 95 min** | Revisión y Control de HCI | Lozada comparte el prototipo; Gamboa y Cusme verifican consistencia de metáforas e indicadores en el prototipo; primeros commits documentados. |
+| **95 – 110 min** | Pruebas y Redacción Final | Martínez simula la validación con el prototipo, redacta la recomendación final y cierra su Issue; commits finales de cada integrante. |
+| **110 – 120 min** | Cierre y Verificación | Cierre de Issues restantes, verificación de permisos públicos en Figma y exportación del PDF (máximo 5 páginas). |
