@@ -20,45 +20,45 @@
 
 | Integrante | Usuario GitHub | Rol HCI | Artefacto Asignado | Issue Cerrado | Commits Significativos |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Abril Lara Emilio Alexander** | `@[usuario]` | Analista de Procesos y Factores Humanos | Flujo AS-IS y Matriz de usuarios y necesidades (Act. 1 y 2) | [#1](url) | [commit-1](url), [commit-2](url) |
-| **Cusme Vélez Manuel Steven** | `@[usuario]` | Arquitecto de Mecanismos y Eficiencia | Comparación de mecanismos e Indicadores de eficiencia (Act. 3 y 4) | [#2](url) | [commit-1](url), [commit-2](url) |
-| **Gamboa Guamán Jonathan Alexis** | `@[usuario]` | Diseñador Conceptual HCI | Metáforas de interfaz y mapeo computacional (Act. 5) | [#3](url) | [commit-1](url), [commit-2](url) |
-| **Lozada Marcial Pablo Damián** | `@[usuario]` | Diseñador UI/UX y Prototipado | Prototipo interactivo navegable en Figma/Penpot (Act. 6) | [#4](url) | [commit-1](url), [commit-2](url) |
-| **Martínez Jiménez William Fernando** | `@[usuario]` | Evaluador de Usabilidad y Calidad | Protocolo de validación, informe final y síntesis (Act. 7 y 8) | [#5](url) | [commit-1](url), [commit-2](url) |
+| **Abril Lara Emilio Alexander** | `@[usuario]` | Analista de Procesos y Factores Humanos | Flujo AS-IS y Matriz de usuarios y necesidades (Act. 1 y 2) | 
+| **Cusme Vélez Manuel Steven** | `@[usuario]` | Arquitecto de Mecanismos y Eficiencia | Comparación de mecanismos e Indicadores de eficiencia (Act. 3 y 4) | 
+| **Gamboa Guamán Jonathan Alexis** | `@[usuario]` | Diseñador Conceptual HCI | Metáforas de interfaz y mapeo computacional (Act. 5) | [#3](url) | 
+| **Lozada Marcial Pablo Damián** | `@[usuario]` | Diseñador UI/UX y Prototipado | Prototipo interactivo navegable en Figma/Penpot (Act. 6) | [#4](url) | 
+| **Martínez Jiménez William Fernando** | `@[usuario]` | Evaluador de Usabilidad y Calidad | Protocolo de validación, informe final y síntesis (Act. 7 y 8) |
 
 ---
 
 ## 🎯 Desglose de Responsabilidades por Integrante
 
-### 1. Abril Lara Emilio Alexander — Diagnóstico de Situación y Usuarios (0.65 pts)
+### 1. Abril Lara Emilio Alexander — Diagnóstico de Situación y Usuarios
 * **Artefactos:** Flujo AS-IS, Matriz de usuarios y necesidades.
 * **Entregables:**
   * Modelado del flujo actual AS-IS señalando tiempos muertos, transcripciones redundantes e inconsistencias entre Google Drive, WhatsApp y agenda física.
   * Análisis formal de al menos dos factores humanos (ej. sobrecarga cognitiva del recepcionista, fallas de memoria de trabajo) y dos factores tecnológicos (ej. asincronía de canales, ausencia de concurrencia/persistencia).
   * Matriz completa de usuarios: Paciente, 5 Fisioterapeutas, Personal administrativo y Administrador del centro.
 
-### 2. Cusme Vélez Manuel Steven — Mecanismos y Eficiencia Operacional (0.75 pts)
+### 2. Cusme Vélez Manuel Steven — Mecanismos y Eficiencia Operacional 
 * **Artefactos:** Comparación de mecanismos, Indicadores de eficiencia.
 * **Entregables:**
   * Matriz comparativa multicriterio (Agenda digital interna, Solicitud con confirmación, Autoagendamiento y Mecanismo híbrido) considerando tiempos, accesibilidad, prevención de solapamientos para los 5 especialistas y privacidad.
   * Selección argumentada del mecanismo idóneo para el centro.
   * Operacionalización de la variable dependiente (*Eficiencia del proceso*) con delimitación de inicio, fin, acciones observables, errores y criterios de éxito para: consulta, registro, modificación, cancelación y reagendamiento.
 
-### 3. Gamboa Guamán Jonathan Alexis — Metáforas de Interfaz y Modelo Mental (0.65 pts)
+### 3. Gamboa Guamán Jonathan Alexis — Metáforas de Interfaz y Modelo Mental 
 * **Artefactos:** Metáforas de interfaz (organizacional, navegación y funcional).
 * **Entregables:**
   * Diseño de 3 metáforas de interfaz: una organizacional/familiar (ej. casillero/pizarra por terapeuta), una de navegación (ej. ruta/línea de tiempo) y una funcional (ej. ticket canjeable).
   * Matriz de mapeo: Dominio fuente ➡️ Elemento digital ➡️ Etiqueta ➡️ Comportamiento ➡️ Riesgo cultural/límite.
   * Definición de affordances, visibilidad del estado del sistema, feedback, reglas de negocio y persistencia computacional.
 
-### 4. Lozada Marcial Pablo Damián — Prototipado Interactivo (0.70 pts)
+### 4. Lozada Marcial Pablo Damián — Prototipado Interactivo 
 * **Artefactos:** Prototipo de fidelidad media navegable.
 * **Entregables:**
   * Flujos completos en Figma/Penpot: Inicio, consulta de disponibilidad, filtro entre los 5 terapeutas, captura de datos, confirmación/resumen, detalle de cita, reagendamiento y diálogo destructivo de cancelación.
   * Cumplimiento estricto de heurísticas: Navegación reversible sin pérdida de datos, estados visibles (carga, éxito, error por conflicto de horario), contraste de color adecuado y soporte de navegación por teclado.
   * Enlace público interactivo con permisos abiertos de visualización.
 
-### 5. Martínez Jiménez William Fernando — Protocolo de Validación e Integración (0.25 pts + Integración)
+### 5. Martínez Jiménez William Fernando — Protocolo de Validación e Integración 
 * **Artefactos:** Protocolo de validación, Recomendación final e Informe técnico consolidado.
 * **Entregables:**
   * Protocolo de evaluación con 3 participantes (P1, P2, P3) midiendo éxito, tiempo, acciones, intervenciones y errores en las 5 tareas clave.
@@ -73,7 +73,7 @@
 
 ---
 
-## ⏱️ Cronograma de Ejecución Recomendado (120 min)
+## ⏱️ Cronograma de Ejecución Recomendado 
 
 | Intervalo | Fase | Acciones de Trabajo |
 | :--- | :--- | :--- |
