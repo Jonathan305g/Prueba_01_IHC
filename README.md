@@ -20,11 +20,11 @@
 
 | Integrante | Usuario GitHub | Rol HCI | Artefacto Asignado | Issue Cerrado | Commits Significativos |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Abril Lara Emilio Alexander** | `@[usuario]` | Analista de Procesos y Factores Humanos | Flujo AS-IS y Matriz de usuarios y necesidades (Act. 1 y 2) | 
-| **Cusme Vélez Manuel Steven** | `@[usuario]` | Arquitecto de Mecanismos y Eficiencia | Comparación de mecanismos e Indicadores de eficiencia (Act. 3 y 4) | 
+| **Abril Lara Emilio Alexander** | `@EmilioAbril` | Analista de Procesos y Factores Humanos | Flujo AS-IS y Matriz de usuarios y necesidades (Act. 1 y 2) | [#1](https://github.com/Jonathan305g/Prueba_01_IHC/issues/1) | `feat(diagnostico)` |
+| **Cusme Vélez Manuel Steven** | `@ManuelCusme` | Arquitecto de Mecanismos y Eficiencia | Comparación de mecanismos e Indicadores de eficiencia (Act. 3 y 4) | [#2](https://github.com/Jonathan305g/Prueba_01_IHC/issues/2) | `feat(mecanismos)` |
 | **Gamboa Guamán Jonathan Alexis** | `@Jonathan305g` | Diseñador Conceptual HCI | Metáforas de interfaz y mapeo computacional (Act. 5) | [#3](https://github.com/Jonathan305g/Prueba_01_IHC/issues/3) | `feat(metaforas)` | 
 | **Lozada Marcial Pablo Damián** | `@Idk-Damian` | Diseñador UI/UX y Prototipado | Prototipo interactivo navegable en Figma/Penpot (Act. 6) | [#4](https://github.com/Jonathan305g/Prueba_01_IHC/issues/4) | `feat(prototipo)` |
-| **Martínez Jiménez William Fernando** | `@[usuario]` | Evaluador de Usabilidad y Calidad | Protocolo de validación, informe final y síntesis (Act. 7 y 8) |
+| **Martínez Jiménez William Fernando** | `@WilliamMartinez` | Evaluador de Usabilidad y Calidad | Protocolo de validación, informe final y síntesis (Act. 7 y 8) | [#5](https://github.com/Jonathan305g/Prueba_01_IHC/issues/5) | `docs(informe)` |
 
 ---
 
@@ -68,8 +68,12 @@
 ---
 
 ## 🔗 Entregables y Enlaces del Proyecto
-* **Enlace al Prototipo Navegable (Figma/Penpot):** [Ver Prototipo Interactivo en Figma](https://www.figma.com/proto/gabo-salud-ihc/GABOS-Gestion-Citas-Prototipo) | [Documentación figma_links.md](docs/04_prototipo/figma_links.md)
-* **Informe Técnico Consolidado (PDF máx. 5 págs.):** `[Ver documento en repositorio / carpeta]`
+
+* **Actividades 1 y 2 (Diagnóstico y Usuarios):** [Documento Actividad 1 y 2](docs/01_analisis_actual/actividad_1_2.md)
+* **Actividades 3 y 4 (Mecanismos y Eficiencia):** [Documento Actividad 3 y 4](02-mecanismos-eficiencia/mecanismos_eficiencia.md)
+* **Actividad 5 (Metáforas de Interfaz):** [Documento Actividad 5](03-metaforas-interfaz/metaforas-interfaz.md)
+* **Actividad 6 (Prototipo Interactivo Figma):** [Ver Prototipo Interactivo en Figma](https://www.figma.com/proto/gabo-salud-ihc/GABOS-Gestion-Citas-Prototipo) | [Especificación Prototipo](04-prototipo-figma/prototipo-interactivo.md) | [Enlaces y Capturas](docs/04_prototipo/figma_links.md)
+* **Informe Técnico Consolidado (PDF):** [Ver Informe Final](informe-final/)
 
 ---
 
@@ -82,6 +86,3 @@
 | **70 – 95 min** | Revisión y Control de HCI | Lozada comparte el prototipo; Gamboa y Cusme verifican consistencia de metáforas e indicadores en el prototipo; primeros commits documentados. |
 | **95 – 110 min** | Pruebas y Redacción Final | Martínez simula la validación con el prototipo, redacta la recomendación final y cierra su Issue; commits finales de cada integrante. |
 | **110 – 120 min** | Cierre y Verificación | Cierre de Issues restantes, verificación de permisos públicos en Figma y exportación del PDF (máximo 5 páginas). |
-
-## Análisis AS-IS y Matriz de Usuarios
-Consulta el documento detallado aquí: [Actividades 1 y 2](docs/01_analisis_actual/actividad_1_2.md)
