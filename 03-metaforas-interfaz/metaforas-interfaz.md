@@ -95,9 +95,15 @@ Las metáforas de interfaz permiten que el usuario entienda un sistema nuevo rel
 
 ---
 
-## 6. Nota para el prototipo (Actividad 6)
+## 6. Verificación en el Prototipo Interactivo (Actividad 6)
 
-Estas metáforas deben verse reflejadas directamente en las 8 pantallas del prototipo de Figma/Penpot:
-- **Inicio y consulta de disponibilidad:** metáfora de casillero por terapeuta.
-- **Todo el flujo de agendar/reagendar:** metáfora de ruta tipo mapa/pasos como barra de progreso superior.
-- **Resumen, confirmación y detalle de cita:** metáfora de comprobante/recibo.
+Las 3 metáforas conceptuales diseñadas en este artefacto se ven reflejadas directamente en los flujos y pantallas del prototipo interactivo navegable desarrollado en Figma:
+
+1. **Metáfora del Casillero por Terapeuta (Organizacional):**
+   - Implementada en el **Selector de los 5 Fisioterapeutas** ([`04-prototipo-figma/capturas/imagen4.jpeg`](../04-prototipo-figma/capturas/imagen4.jpeg)) y la **Grilla de disponibilidad** ([`imagen3.jpeg`](../04-prototipo-figma/capturas/imagen3.jpeg)), asignando un casillero/contenedor exclusivo a cada especialista.
+2. **Metáfora de Ruta tipo Mapa/Pasos (Navegación):**
+   - Implementada como la barra de progreso superior de 4 hitos en el **Formulario del Paciente** ([`04-prototipo-figma/capturas/imagen5.jpeg`](../04-prototipo-figma/capturas/imagen5.jpeg)) y en la pantalla de **Resumen** ([`imagen6.jpeg`](../04-prototipo-figma/capturas/imagen6.jpeg)), brindando visibilidad constante del trayecto y soporte para navegación reversible.
+3. **Metáfora Funcional de Comprobante/Recibo (Funcional):**
+   - Implementada en el **Resumen provisional `#GB-TMP-2026`** ([`imagen6.jpeg`](../04-prototipo-figma/capturas/imagen6.jpeg)) y en la vista del **Detalle de Cita Confirmada `#GB-8841`** ([`imagen7.jpeg`](../04-prototipo-figma/capturas/imagen7.jpeg)), otorgando un objeto de confirmación verificable con folio único.
+
+> 🔗 **Documentación y prototipo interactivo:** [`docs/04_prototipo/figma_links.md`](../docs/04_prototipo/figma_links.md) | [`04-prototipo-figma/prototipo-interactivo.md`](../04-prototipo-figma/prototipo-interactivo.md)
