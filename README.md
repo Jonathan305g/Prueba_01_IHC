@@ -23,7 +23,7 @@
 | **Abril Lara Emilio Alexander** | `@[usuario]` | Analista de Procesos y Factores Humanos | Flujo AS-IS y Matriz de usuarios y necesidades (Act. 1 y 2) | 
 | **Cusme Vélez Manuel Steven** | `@[usuario]` | Arquitecto de Mecanismos y Eficiencia | Comparación de mecanismos e Indicadores de eficiencia (Act. 3 y 4) | 
 | **Gamboa Guamán Jonathan Alexis** | `@[usuario]` | Diseñador Conceptual HCI | Metáforas de interfaz y mapeo computacional (Act. 5) | [#3](url) | 
-| **Lozada Marcial Pablo Damián** | `@[usuario]` | Diseñador UI/UX y Prototipado | Prototipo interactivo navegable en Figma/Penpot (Act. 6) | [#4](url) | 
+| **Lozada Marcial Pablo Damián** | `@Idk-Damian` | Diseñador UI/UX y Prototipado | Prototipo interactivo navegable en Figma/Penpot (Act. 6) | [#4](https://github.com/Jonathan305g/Prueba_01_IHC/issues/4) | `feat(prototipo)` |
 | **Martínez Jiménez William Fernando** | `@[usuario]` | Evaluador de Usabilidad y Calidad | Protocolo de validación, informe final y síntesis (Act. 7 y 8) |
 
 ---
@@ -68,7 +68,7 @@
 ---
 
 ## 🔗 Entregables y Enlaces del Proyecto
-* **Enlace al Prototipo Navegable (Figma/Penpot):** `[Insertar enlace aquí]`
+* **Enlace al Prototipo Navegable (Figma/Penpot):** [Ver Prototipo Interactivo en Figma](https://www.figma.com/proto/gabo-salud-ihc/GABOS-Gestion-Citas-Prototipo) | [Documentación figma_links.md](docs/04_prototipo/figma_links.md)
 * **Informe Técnico Consolidado (PDF máx. 5 págs.):** `[Ver documento en repositorio / carpeta]`
 
 ---
