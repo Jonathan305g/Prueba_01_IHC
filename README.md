@@ -82,3 +82,6 @@
 | **70 – 95 min** | Revisión y Control de HCI | Lozada comparte el prototipo; Gamboa y Cusme verifican consistencia de metáforas e indicadores en el prototipo; primeros commits documentados. |
 | **95 – 110 min** | Pruebas y Redacción Final | Martínez simula la validación con el prototipo, redacta la recomendación final y cierra su Issue; commits finales de cada integrante. |
 | **110 – 120 min** | Cierre y Verificación | Cierre de Issues restantes, verificación de permisos públicos en Figma y exportación del PDF (máximo 5 páginas). |
+
+## Análisis AS-IS y Matriz de Usuarios
+Consulta el documento detallado aquí: [Actividades 1 y 2](docs/01_analisis_actual/actividad_1_2.md)
