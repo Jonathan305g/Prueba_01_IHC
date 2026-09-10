@@ -25,7 +25,6 @@
 | **Gamboa Guamán Jonathan Alexis** | `@Jonathan305g` | Diseñador Conceptual HCI | Metáforas de interfaz y mapeo computacional (Act. 5) | [#3](https://github.com/Jonathan305g/Prueba_01_IHC/issues/3) | `feat(metaforas)` | 
 | **Lozada Marcial Pablo Damián** | `@Idk-Damian` | Diseñador UI/UX y Prototipado | Prototipo interactivo navegable en Figma/Penpot (Act. 6) | [#4](https://github.com/Jonathan305g/Prueba_01_IHC/issues/4) | `feat(prototipo)` |
 | **Martínez Jiménez William Fernando** | `@WilliamMartinez` | Evaluador de Usabilidad y Calidad | Protocolo de validación, informe final y síntesis (Act. 7 y 8) | [#5](https://github.com/Jonathan305g/Prueba_01_IHC/issues/5) | `docs(informe)` |
- jose caiza realizara cambios en el texto
 ---
 
 ## 🎯 Desglose de Responsabilidades por Integrante
